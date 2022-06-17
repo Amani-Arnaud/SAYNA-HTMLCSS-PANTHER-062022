@@ -1,2 +1,4 @@
 # SAYNA-HTMLCSS-PANTHER-062022
 Projet d'évaluation TRONC COMMUN formation TALENT FOR STARTUP 2022 | SAYNA
+# DEADLINE
+du Vendredi 17/06/2022 au Dimanche 19/06/2022.
