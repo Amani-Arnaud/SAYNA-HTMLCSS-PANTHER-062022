@@ -22,3 +22,178 @@
 
 
 /* Fin typographie */
+
+
+/* Definition de style global */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "panthera";
+    font-size: 68px;
+    font-style: regular;
+    color: #9E91B7;
+}
+
+h2 {
+    font-family: "beyno";
+    font-size: 32px;
+    font-style: regular;
+    color: #9E91B7;
+}
+
+body {
+    background-image: url("../Illustrations + Logo/All pages/arrière_plan.png");
+    /* height: 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Fin de style global */
+
+
+/* Propriete style header  */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    height: 100px;
+}
+
+header .logo-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .logo-header img {
+    margin: 5px;
+}
+
+header .menu ul li {
+    display: inline-block;
+    margin: 25px;
+}
+
+header .menu ul li a {
+    text-decoration: none;
+    font-family: "beyno";
+    font-size: 20px;
+    font-style: regular;
+    color: white;
+}
+
+header .menu ul li a:hover,
+header .menu .active {
+    text-decoration: underline;
+    color: #07738C;
+}
+
+
+/* Fin style Header */
+
+
+/* Definition style main  */
+
+main {
+    /* height: 600px; */
+}
+
+
+/* Fin de style main  */
+
+
+/* Definition style footer */
+
+footer {
+    background-image: url("../Illustrations + Logo/All pages/back_footer.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px;
+}
+
+footer .logo-footer {
+    background-image: url("../Illustrations + Logo/All pages/footer1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 385px;
+    width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+footer .policies {
+    display: flex;
+    flex-direction: column;
+    height: 385px;
+    margin-left: 50px;
+}
+
+.policies .link {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.policies .link .titre {
+    font-family: "cantarell";
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: 0.28em;
+    margin-bottom: 25px;
+}
+
+.policies .link .pages ul li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.policies .link .pages ul li a {
+    text-decoration: none;
+    font-family: "cantarell";
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.policies .link .social .social-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.policies .link .social .social-logo img:hover {
+    /* zoom: 1.1; */
+    transform: scale(1.10);
+}
+
+.policies .condition-right {
+    text-decoration: none;
+    font-family: "cantarell";
+    font-size: 14px;
+    color: #ffffff;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.policies .condition-right p span {
+    font-family: " sans-serif";
+    font-size: 5em;
+    border-radius: 50%;
+}
+
+
+/* Fin style footer */
