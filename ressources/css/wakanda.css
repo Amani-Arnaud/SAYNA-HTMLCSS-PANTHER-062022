@@ -20,5 +20,46 @@
     src: url("fonts/WakandaForever-Regular.ttf");
 }
 
+#wakanda {
+    background-image: url("../Illustrations + Logo/Wakanda/Pantherwakanda1.png");
+    background-size: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.intro-wakanda {
+    margin: auto;
+    width: 80%;
+    text-align: left;
+}
+
+.intro-wakanda .titre-wakanda {
+    font-size: 58px;
+    margin-bottom: 5px;
+    /* letter-spacing: 0.10em; */
+}
+
+.intro-wakanda .soustitre-wakanda {
+    font-family: "WakandaForever";
+    color: #9E91B7;
+    font-size: 40px;
+    /* letter-spacing: 0.10em; */
+    margin-bottom: 40px;
+}
+
+.intro-wakanda .text-wakanda {
+    display: block;
+    width: 400px;
+    text-align: justify;
+}
+
+#apropos p span {
+    display: block;
+    margin-bottom: 10px;
+}
+
 
 /* Fin typographie */

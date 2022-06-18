@@ -1,3 +1,5 @@
+/* FEUILLE DE STYLE SPECIALEMENT POUR LA PAGE ENIGME */
+
 /* Definition des typographies  */
 
 @font-face {
@@ -22,3 +24,103 @@
 
 
 /* Fin typographie */
+
+/* Proprieté globale */
+p, label{
+    font-size: 14px;
+    margin: 20px 0px;
+    color: white;
+}
+/* FIN propriete global */
+
+/* Propriété CSS section defi */
+#defi {
+    background-image: url("../Illustrations + Logo/Enigme/Pantherenigme1.png");
+    background-size: 80%;
+    background-position: bottom left -10%;
+    background-repeat: no-repeat;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+#defi .card-defi {
+    width: 650px;
+}
+
+.card-defi .titre-defi {
+    font-size: 54px;
+    text-align: justify;
+    width: 550px;
+    margin: 45px 10px;
+    letter-spacing: 0.09em;
+}
+
+.texte-defi .paragraphe {
+    background-image: url("../Illustrations + Logo/Enigme/Pantherenigme2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 385px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+}
+
+.texte-defi .paragraphe p{
+    width: 70%;
+    font-size: 11px;
+}
+
+.texte-defi img {
+    width: 100%;
+}
+/* Fin section defi  */
+
+
+/* Propriété css section Enigme */
+.main-enigme {
+    margin-left: 15%;
+}
+
+.main-enigme .entete{
+    font-family: "WakandaForever";
+    letter-spacing: 0.25em;
+    line-height: 50px;
+    width: 70%;
+}
+.main-enigme .content-enigme {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.transcription .alphabet span {
+    font-family: "WakandaForever";
+}
+
+.content-enigme .info-enigme {
+    background-image: url("../Illustrations + Logo/Enigme/Pantherenigme2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 385px;
+    /* width: 80%; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid red;
+}
+
+.content-enigme .info-enigme p{
+    width: 70%;
+    font-size: 11px;
+}
+
+.info-enigme p span {
+    display: block;
+    margin-bottom: 20px;
+}
+/* Fin section Enigme */

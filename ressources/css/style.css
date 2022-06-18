@@ -45,6 +45,12 @@ h2 {
     color: #9E91B7;
 }
 
+p {
+    font-family: "cantarell";
+    font-size: 14px;
+    color: #ffffff;
+}
+
 body {
     background-image: url("../Illustrations + Logo/All pages/arrière_plan.png");
     /* height: 100%; */
