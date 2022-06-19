@@ -46,6 +46,7 @@ h1 {
     font-size: 68px;
     font-style: regular;
     color: var(--white-violet-1);
+    margin: 10px 0px;
 }
 
 h2 {
@@ -132,6 +133,247 @@ header .menu .active {
 
 
 /* FEUILLE DE STYLE SPECIALEMENT POUR LA PAGE INDEX */
+
+
+/* Propriete de la section black panther */
+
+.section-panther {
+    background-image: url("../Illustrations + Logo/Accueil/Pantherhome1..png");
+    background-size: contain;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.section-panther .social-logo {
+    position: fixed;
+    top: 0;
+    left: 2.5%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid var(--white-violet-1);
+    border-bottom: 0;
+    border-top: 0;
+    border-right: 0;
+}
+
+.section-panther .social-logo .ligne {
+    height: 40vh;
+    border: 1px solid var(--white-violet-1);
+}
+
+.section-panther .social-logo .icon-social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.section-panther .social-logo .icon-social img {
+    margin: 0px;
+    margin: 10px 10px;
+    padding-top: 5px;
+}
+
+.section-panther .intro-panther {
+    margin-left: 12%;
+}
+
+.section-panther .intro-panther .sous-titre {
+    margin-bottom: 25px;
+}
+
+.section-panther .intro-panther .texte-intro {
+    display: block;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.section-panther .intro-panther a {
+    color: var(--white-primaire);
+    font-family: "cantarell";
+}
+
+
+/* Fin intro black panther */
+
+
+/* Propriete section slide hero */
+
+.conainer-slides {
+    margin-left: 8%;
+    background-color: var(--violet-tertiaire);
+    display: flex;
+}
+
+.conainer-slides .card {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.conainer-slides .card .decription-slide {
+    margin-top: 30px;
+    margin: 0px 30px;
+}
+
+.conainer-slides .card .decription-slide .titre-slide {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.conainer-slides .card .decription-slide .texte-slide {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.conainer-slides .card .decription-slide a {
+    color: var(--white-primaire);
+    font-family: "cantarell";
+}
+
+
+/* Fin section slide hero */
+
+
+/* Propriete Section naissance du prince */
+
+#dob-prince {
+    padding-left: 15%;
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+#dob-prince .contenu-text {
+    width: 600px;
+}
+
+#dob-prince .contenu-text h2 {
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+#dob-prince .contenu-text p span {
+    display: block;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#dob-prince .presentation {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#dob-prince .presentation .img-panther {
+    margin-bottom: 50px;
+}
+
+#dob-prince .presentation .profil {
+    width: 400px;
+    background-color: var(--white-primaire);
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+#dob-prince .presentation .profil img {
+    margin-top: -60%;
+    width: 80%;
+}
+
+#dob-prince .presentation .profil .btn-profil {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 10px;
+    border-radius: 5px;
+    font-family: "cantarell";
+    background-color: var(--violet-primaire);
+    color: var(--white);
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+#dob-prince .presentation .profil .biographie {
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+#dob-prince .presentation .profil .biographie p span {
+    display: block;
+    margin: 10px;
+    color: var(--violet-tertiaire);
+}
+
+#dob-prince .presentation .profil .biographie p .detail {
+    font-size: 0.8em;
+    font-style: normal;
+}
+
+
+/* Fin Section naissance du prince */
+
+
+/* Section CONTACT  */
+
+#contact {
+    background-image: url("../Illustrations + Logo/Accueil/Pantherhome7.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 10%;
+}
+
+#contact .contact-main {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-image: linear-gradient(to bottom, var(--white), rgba(255, 255, 255, 0.1));
+    border-radius: 150px;
+    text-align: center;
+    padding: 50px 200px;
+}
+
+#contact .contact-main .question,
+#contact .contact-main .titre {
+    font-size: 14px;
+    font-family: "cantarell";
+    color: var(--violet-tertiaire);
+}
+
+#contact .contact-main .titre {
+    font-size: 40px !important;
+    margin-bottom: 20px;
+}
+
+#contact .contact-main input[type=text],
+#contact .contact-main input[type=email],
+#contact .contact-main textarea {
+    width: 80%;
+    margin: 10px 0px;
+    background-color: #FFFFFF00;
+    border: 1px solid var(--violet-tertiaire);
+    height: 48px;
+    padding-left: 20px;
+    border-radius: 28px;
+}
+
+#contact .contact-main textarea {
+    height: 200px;
+}
+
+
+/* fin section CONTACR */
 
 
 /* FIN PAGE INDEX */
