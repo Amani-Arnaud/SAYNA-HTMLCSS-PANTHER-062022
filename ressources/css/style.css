@@ -31,24 +31,34 @@
     padding: 0;
 }
 
+:root {
+    --violet-primaire: #3D2DA6;
+    --violet-secondaire: #07338C;
+    --violet-tertiaire: #021740;
+    --white: #FFFFFF;
+    --white-primaire: #F2CEF2;
+    --white-violet-1: #9E91B7;
+    --white-violet-2: #DF99F2;
+}
+
 h1 {
     font-family: "panthera";
     font-size: 68px;
     font-style: regular;
-    color: #9E91B7;
+    color: var(--white-violet-1);
 }
 
 h2 {
     font-family: "beyno";
     font-size: 32px;
     font-style: regular;
-    color: #9E91B7;
+    color: var(--white-violet-1);
 }
 
 p {
     font-family: "cantarell";
     font-size: 14px;
-    color: #ffffff;
+    color: var(--white-primaire);
 }
 
 body {
@@ -57,6 +67,17 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.btn-form {
+    font-family: "cantarell";
+    font-style: bold;
+    width: 174px;
+    height: 54px;
+    border-radius: 38px;
+    color: var(--violet-tertiaire);
+    border: 0;
+    background-color: var(--white-primaire);
 }
 
 
@@ -94,13 +115,13 @@ header .menu ul li a {
     font-family: "beyno";
     font-size: 20px;
     font-style: regular;
-    color: white;
+    color: var(--white);
 }
 
 header .menu ul li a:hover,
 header .menu .active {
     text-decoration: underline;
-    color: #07738C;
+    color: var(--violet-secondaire);
 }
 
 
@@ -109,9 +130,11 @@ header .menu .active {
 
 /* Definition style main  */
 
-main {
-    /* height: 600px; */
-}
+
+/* FEUILLE DE STYLE SPECIALEMENT POUR LA PAGE INDEX */
+
+
+/* FIN PAGE INDEX */
 
 
 /* Fin de style main  */
@@ -158,7 +181,7 @@ footer .policies {
 .policies .link .titre {
     font-family: "cantarell";
     font-size: 22px;
-    color: #ffffff;
+    color: var(--white);
     letter-spacing: 0.28em;
     margin-bottom: 25px;
 }
@@ -172,7 +195,7 @@ footer .policies {
     text-decoration: none;
     font-family: "cantarell";
     font-size: 16px;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .policies .link .social .social-logo {
@@ -190,7 +213,7 @@ footer .policies {
     text-decoration: none;
     font-family: "cantarell";
     font-size: 14px;
-    color: #ffffff;
+    color: var(--white);
     align-items: center;
     margin-top: 100px;
 }
@@ -203,3 +226,50 @@ footer .policies {
 
 
 /* Fin style footer */
+
+
+/* ###################################################################### */
+
+
+/* ######################## PROPRIETE RESPONSIVE ######################## */
+
+
+/* ###################################################################### */
+
+@media (max-width: 800px) {
+    /* DEFINIR LES PROPRIETE RESPONSIVE A PARTIR D'ECRAN DE 800PX */
+    /* feuille de style menu */
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header .menu ul li {
+        display: block;
+        margin: 20px;
+        text-align: center;
+    }
+    /* Fin menu  */
+    /* feuille de style footer */
+    footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    footer .policies {
+        margin: 0px 20px;
+    }
+    .policies .link {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .policies .link .pages,
+    .policies .link .social {
+        margin: 20px 0px;
+    }
+    .policies .condition-right {
+        margin-top: 10px;
+    }
+    /* fin footer */
+}
