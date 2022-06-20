@@ -139,6 +139,21 @@
 
 @media (max-width: 800px) {
     /* DEFINIR LES PROPRIETE RESPONSIVE A PARTIR D'ECRAN DE 800PX */
+    #wakanda {
+        background-image: url("../Illustrations + Logo/Wakanda/Pantherwakanda1.png");
+        background-size: cover;
+        background-position: center;
+        margin-top: 10px;
+    }
+    .intro-wakanda {
+        margin: auto;
+        width: 80%;
+        text-align: center;
+    }
+    .intro-wakanda .text-wakanda {
+        width: auto;
+        text-align: justify;
+    }
     #apropos {
         display: flex;
         flex-direction: column;
@@ -146,6 +161,7 @@
     }
     .left-apropos,
     .right-apropos {
-        width: 100%;
+        margin: auto;
+        width: 90%;
     }
 }

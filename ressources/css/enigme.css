@@ -57,7 +57,7 @@ label {
     background-size: 80%;
     background-position: bottom left -10%;
     background-repeat: no-repeat;
-    height: 110vh;
+    height: 130vh;
     display: flex;
     align-items: center;
     justify-content: right;
@@ -130,7 +130,6 @@ label {
 
 .transcription form {
     margin-top: 150px;
-    /* text-align: center; */
 }
 
 .transcription form input[type=text] {
@@ -150,10 +149,7 @@ label {
 }
 
 .transcription form .btn-enigme:hover {
-    /* Drop shadow: #021740;
-    Blur: 20;
-    X: 0;
-    Y: 0; */
+    filter: drop-shadow(0 0 20px var(--white-primaire));
 }
 
 .content-enigme .info-enigme {
@@ -193,5 +189,60 @@ label {
 
 @media (max-width: 800px) {
     /* DEFINIR LES PROPRIETE RESPONSIVE A PARTIR D'ECRAN DE 800PX */
-    
+    #defi {
+        background-size: contain;
+        background-position: center;
+        height: auto;
+        margin: 100px 0px;
+        justify-content: center;
+    }
+    #defi .card-defi {
+        width: 90%;
+        margin: 0;
+    }
+    .card-defi .titre-defi {
+        font-size: 48px;
+        width: auto;
+        text-align: center;
+        margin: auto;
+    }
+    .texte-defi .paragraphe {
+        background-size: contain;
+        background-position: center;
+        height: auto;
+        width: 100%;
+    }
+    .main-enigme {
+        margin-left: 0%;
+    }
+    .main-enigme .entete {
+        letter-spacing: 0.25em;
+        width: 100%;
+        text-align: center;
+    }
+    .main-enigme .content-enigme {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 150px;
+    }
+    .content-enigme .info-enigme {
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: auto;
+    }
+    .transcription {
+        width: 90%;
+        margin: auto;
+    }
+    .transcription form {
+        margin-top: 50px;
+    }
+    .transcription form input[type=text] {
+        width: 100%;
+        padding: 0;
+    }
+    .transcription form .btn-enigme {
+        margin: auto;
+    }
 }
